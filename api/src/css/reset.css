@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+:root {
+    --bg-color: #0a0a0a;
+    --text-color: #fdfdfd;
+    --main-color: #ff0000;
+    --white-color: #fdfdfd;
+    --shadow-color: rgba(0, 0, 0, .7);
+    /* --TE-color: rgb(0,128,128);
+    --BCU-color: #00BFFF;
+    --BS-color: #9ACD32; */
+    --SE-color: #ffb95e;
+    --AL-color: #6495ED;
+    --EC-color: #8A2BE2;
+    --ESS-color: #1E90FF;
+    --JP-color: #FFD700; 
+}
+
+.dark-mode {
+    --bg-color: #fdfdfd;
+    --text-color: #333;
+    --shadow-color: rgba(0, 0, 0, .2);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+strong {
+    color: var(--main-color);
+}
+
+
