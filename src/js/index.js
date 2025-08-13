@@ -47,9 +47,9 @@ darkModeIcon.addEventListener('click', () => {
 
 function updateLogo(isSun) {
     if (isSun) {
-        logo.style.backgroundImage = "url('../src/image/logo.png')"; 
+        logo.style.backgroundImage = "url('src/image/logo.png')"; 
     } else {
-        logo.style.backgroundImage = "url('../src/image/logo_modoescuro.png')"; 
+        logo.style.backgroundImage = "url('src/image/logo_modoescuro.png')"; 
     }
 }
 
