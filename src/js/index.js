@@ -70,10 +70,6 @@ const modalContent = document.querySelector(".modal-content");
 const closeModalBtn = document.getElementById("closeModalBtn");
 const portfolioBoxes = document.querySelectorAll(".portfolio-box");
 
-window.onload = function() {
-    modal.style.display = "none";
-};
-
 portfolioBoxes.forEach(box => {
     box.addEventListener("click", function() {
         const title = box.getAttribute("data-title");
